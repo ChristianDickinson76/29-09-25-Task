@@ -25,6 +25,8 @@ if __name__ == '__main__':
     neighbour2_height_inches = (int(neighbour2_height_feetinch[0]) * 12) + int(neighbour2_height_feetinch[1])
     print(neighbour1_height_inches)
     average_height_inches = (user_height_inches+neighbour1_height_inches+neighbour2_height_inches)/3
+
+
     print("The average height of your and your neighbours is " + str(int(average_height_inches//12)) + f" feet and {average_height_inches%12:.2f} inches")
 
 
