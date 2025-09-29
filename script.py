@@ -20,6 +20,7 @@ if __name__ == '__main__':
     neighbour1_height_inches = (int(neighbour1_height_feetinch[0]) * 12) +int(neighbour1_height_feetinch[1])
     print(neighbour1_height_inches)
     _neighbour2_height_feetinch = input("What is your neighbours height in feet and inches, separated by a ,?")
+
     neighbour2_height_feetinch = _neighbour2_height_feetinch.split(",")
     neighbour2_height_inches = (int(neighbour2_height_feetinch[0]) * 12) + int(neighbour2_height_feetinch[1])
     print(neighbour1_height_inches)
